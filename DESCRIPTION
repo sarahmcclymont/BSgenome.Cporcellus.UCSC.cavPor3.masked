@@ -1,0 +1,17 @@
+Package: BSgenome.Cporcellus.UCSC.cavPor3.masked
+Title: Full masked genome sequences for Cavia porcellus (UCSC version cavPor3)
+Description: Full masked genome sequences for Cavia porcellus (Guinea pig) as provided by UCSC (cavPor3)
+Version: 0.0.2
+Author: Sarah McClymont
+Maintainer: Sarah McClymont <sarahmcclymont@gmail.com>
+Depends: R (>= 3.5.0), BSgenome (>= 1.58.0), BSgenome.Cporcellus.UCSC.cavPor3
+Imports: BSgenome, BSgenome.Cporcellus.UCSC.cavPor3
+Suggests: 
+License: https://genome.cse.ucsc.edu/goldenPath/credits.html#guinea_pig_use
+organism: Cavia porcellus
+common_name: Guinea pig
+genome: cavPor3
+provider: UCSC
+release_date: Feb. 2008
+source_url: https://hgdownload.soe.ucsc.edu/goldenPath/cavPor3/bigZips/
+biocViews: AnnotationData, Genetics, BSgenome, Cavia_porcellus

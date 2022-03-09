@@ -1,0 +1,8 @@
+import(BSgenome)
+import(BSgenome.Cporcellus.UCSC.cavPor3)
+
+### Don't export BSgenome.Cporcellus.UCSC.cavPor3.masked (the name of the MaskedBSgenome object defined in
+### this package): the object is created and its name is dynamically exported
+### at load time (refer to R/zzz.R for the details).
+#export(BSgenome.Cporcellus.UCSC.cavPor3.masked)
+
